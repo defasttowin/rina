@@ -240,6 +240,15 @@ body {
   font-family: Anticva;
   line-height: 120%;
   text-transform: uppercase;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+      -ms-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  transition: opacity 1s ease, -webkit-transform 1s ease;
+  -o-transition: opacity 1s ease, transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
 }
 
 .title-h3 {
@@ -304,18 +313,6 @@ body {
 
 .header-box {
   max-width: 700px;
-}
-
-.header-box__title {
-  opacity: 0;
-  -webkit-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
-  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-  transition: opacity 1s ease, -webkit-transform 1s ease;
-  -o-transition: opacity 1s ease, transform 1s ease;
-  transition: opacity 1s ease, transform 1s ease;
-  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
 }
 
 .header-box__title:not(:last-child) {
@@ -2554,7 +2551,8 @@ body {
 }
 
 .results__image img {
-  width: 100%;
+  max-width: 100%;
+  height: 100%;
 }
 
 .other-jobs-app__title {
@@ -2827,10 +2825,6 @@ body {
     -webkit-column-gap: 2.875rem;
        -moz-column-gap: 2.875rem;
             column-gap: 2.875rem;
-  }
-
-  .header-box__title {
-    font-size: 2.75rem;
   }
 
   .header-box__text {
@@ -4462,6 +4456,12 @@ body {
   }
 }
 
+@media (max-width: 29.99875em) {
+  .results__image {
+    height: 275px;
+  }
+}
+
 @media (max-width: 23.4375em) {
   .title-h3 {
     font-size: 1.375rem;
@@ -4471,10 +4471,6 @@ body {
     -webkit-column-gap: 1.5rem;
        -moz-column-gap: 1.5rem;
             column-gap: 1.5rem;
-  }
-
-  .header-box__title {
-    font-size: 1.875rem;
   }
 
   .header-box__text {
@@ -4964,18 +4960,6 @@ body {
       -webkit-column-gap: calc(1.5rem + 1.375 * (100vw - 23.4375rem) / 86.5625);
          -moz-column-gap: calc(1.5rem + 1.375 * (100vw - 23.4375rem) / 86.5625);
               column-gap: calc(1.5rem + 1.375 * (100vw - 23.4375rem) / 86.5625);
-    }
-}
-
-@supports (font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem )) {
-    .header-box__title {
-      font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem );
-    }
-}
-
-@supports not (font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem )) {
-    .header-box__title {
-      font-size: calc(1.875rem + 0.875 * (100vw - 23.4375rem) / 86.5625);
     }
 }
 
