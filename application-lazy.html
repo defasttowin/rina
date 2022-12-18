@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Rina</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221218183431">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<div class="decor-lines decor-lines_left"></div>
+					<div class="decor-lines decor-lines_right"></div>
+					<div class="header__logo-box">
+						<a href="#" class="header__logo">
+							<svg width="57" height="39" viewBox="0 0 57 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="19.5" cy="19.5" r="19.25" stroke="#948E6D" stroke-width="0.5" />
+								<path d="M19.6452 19.8C20.0052 19.8 20.3518 19.74 20.6852 19.62C21.0318 19.5 21.3318 19.3333 21.5852 19.12C21.8518 18.8933 22.0652 18.6267 22.2252 18.32C22.3852 18.0133 22.4652 17.6667 22.4652 17.28V16.16C22.4652 15.72 22.3718 15.34 22.1852 15.02C22.0118 14.7 21.7785 14.44 21.4852 14.24C21.1918 14.04 20.8585 13.8933 20.4852 13.8C20.1252 13.6933 19.7585 13.64 19.3852 13.64C19.2118 13.64 18.9985 13.6533 18.7452 13.68C18.5052 13.6933 18.2585 13.7133 18.0052 13.74C17.7518 13.7667 17.5118 13.8 17.2852 13.84C17.0585 13.8667 16.8852 13.9 16.7652 13.94V19.8H19.6452ZM16.7652 20.96V26.4C16.7652 26.7867 16.5718 26.98 16.1852 26.98C16.0385 26.98 15.9052 26.9333 15.7852 26.84C15.6652 26.7333 15.6052 26.5867 15.6052 26.4V14.3C15.6052 13.86 15.7452 13.52 16.0252 13.28C16.3052 13.04 16.6518 12.86 17.0652 12.74C17.4785 12.62 17.9185 12.5467 18.3852 12.52C18.8518 12.4933 19.2718 12.48 19.6452 12.48C20.1652 12.48 20.6652 12.5733 21.1452 12.76C21.6252 12.9333 22.0452 13.18 22.4052 13.5C22.7652 13.82 23.0518 14.2067 23.2652 14.66C23.4785 15.1133 23.5852 15.6133 23.5852 16.16V17.3C23.5852 17.8067 23.4985 18.2467 23.3252 18.62C23.1518 18.9933 22.9518 19.3133 22.7252 19.58C22.4718 19.8867 22.1852 20.1467 21.8652 20.36C21.9718 20.4 22.1252 20.4933 22.3252 20.64C22.5252 20.7733 22.7252 20.9667 22.9252 21.22C23.1252 21.46 23.2918 21.7667 23.4252 22.14C23.5585 22.5 23.6185 22.94 23.6052 23.46V26.4C23.6052 26.5867 23.5452 26.7333 23.4252 26.84C23.3185 26.9333 23.1918 26.98 23.0452 26.98C22.8852 26.98 22.7452 26.9333 22.6252 26.84C22.5185 26.7333 22.4652 26.5867 22.4652 26.4V23.46C22.4652 23.0733 22.3852 22.7267 22.2252 22.42C22.0652 22.1 21.8518 21.8333 21.5852 21.62C21.3185 21.4067 21.0118 21.2467 20.6652 21.14C20.3318 21.02 19.9918 20.96 19.6452 20.96H16.7652ZM27.8786 13.08C27.8786 12.92 27.9319 12.7867 28.0386 12.68C28.1586 12.56 28.2919 12.5 28.4386 12.5C28.6253 12.5 28.7719 12.56 28.8786 12.68C28.9853 12.7867 29.0386 12.92 29.0386 13.08V26.4C29.0386 26.5867 28.9853 26.7333 28.8786 26.84C28.7719 26.9333 28.6253 26.98 28.4386 26.98C28.2919 26.98 28.1586 26.9333 28.0386 26.84C27.9319 26.7333 27.8786 26.5867 27.8786 26.4V13.08ZM33.2966 13.14C33.2966 12.9933 33.3566 12.86 33.4766 12.74C33.5966 12.62 33.7299 12.56 33.8766 12.56C34.1166 12.56 34.3099 12.7333 34.4566 13.08L40.1166 24.1V13.14C40.1166 12.9933 40.1699 12.86 40.2766 12.74C40.3966 12.62 40.5366 12.56 40.6966 12.56C40.8432 12.56 40.9699 12.62 41.0766 12.74C41.1966 12.86 41.2566 12.9933 41.2566 13.14V26.46C41.2566 26.7133 41.2032 26.8733 41.0966 26.94C40.9899 27.0067 40.9099 27.04 40.8566 27.04C40.5899 27.04 40.4099 27 40.3166 26.92C40.2232 26.84 40.1632 26.7667 40.1366 26.7L34.4366 15.64V26.46C34.4366 26.6467 34.3832 26.7933 34.2766 26.9C34.1699 26.9933 34.0366 27.04 33.8766 27.04C33.7299 27.04 33.5966 26.9933 33.4766 26.9C33.3566 26.7933 33.2966 26.6467 33.2966 26.46V13.14ZM52.5514 26.22C52.5514 26.26 52.5514 26.2933 52.5514 26.32C52.5647 26.3333 52.5714 26.3533 52.5714 26.38C52.5714 26.4067 52.5781 26.42 52.5914 26.42C52.5914 26.5667 52.5381 26.6933 52.4314 26.8C52.3381 26.9067 52.1981 26.96 52.0114 26.96C51.8914 26.96 51.7714 26.92 51.6514 26.84C51.5447 26.76 51.4781 26.6533 51.4514 26.52L50.3514 22.12H46.8314L45.7314 26.52C45.6914 26.6533 45.6181 26.76 45.5114 26.84C45.4047 26.92 45.2914 26.96 45.1714 26.96C44.9847 26.96 44.8381 26.9 44.7314 26.78C44.6381 26.66 44.5914 26.5267 44.5914 26.38V26.28L48.0514 12.9C48.1581 12.62 48.3514 12.48 48.6314 12.48C48.7381 12.48 48.8381 12.5267 48.9314 12.62C49.0247 12.7 49.0914 12.8067 49.1314 12.94V12.92L52.5514 26.22ZM50.0314 20.98L48.5914 14.96L47.1314 20.98H50.0314Z" fill="#1C0D02" />
+							</svg>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav data-da="body, 767.98" class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a class="menu__link" href="">Работы</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="">Обо мне</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="">Контакты</a>
+								</li>
+							</ul>
+							<a href="" class="menu__button">связаться со мной</a>
+						</nav>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<div class="main-block__header header-block">
+							<div class="header-block__subtitle">2022 / Сервис для поиска интересных мест и событий</div>
+							<h1 class="header-block__title title-h1">Мобильное приложение LAZY</h1>
+							<ul class="header-block__list list-block list-block_short">
+								<li class="list-block__item">ui/ux</li>
+								<li class="list-block__item">android app</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="task">
+				<div class="task__container">
+					<div class="task__content">
+						<div class="task__box-container">
+							<div class="task__items items-task">
+								<div class="items-task__item">
+									<h3 class="items-task__title title-h3">Задача</h3>
+									<p class="items-task__text">Спроектировать приложение для стартапа LAZY. Сервис помогает найти занятие на&nbsp;вечер и&nbsp;учитывает все возможные факторы, которые могут на&nbsp;это повлиять: настроение пользователя, его предпочтения, количество свободного времени, финансовые возможности.</p>
+								</div>
+								<div class="items-task__item">
+									<h3 class="items-task__title title-h3">Проблема</h3>
+									<p class="items-task__text">Многие пользователи сталкиваются с&nbsp;проблемой найти подходящее для себя мероприятие на&nbsp;выходные или на&nbsp;время отпуска, и&nbsp;при этом не&nbsp;хотят затрачивать много времени на&nbsp;поиск. Но&nbsp;это непростое дело при том многообразии выбора, которым мы&nbsp;располагаем сегодня.</p>
+								</div>
+								<div class="items-task__item">
+									<h3 class="items-task__title title-h3">Моя роль</h3>
+									<p class="items-task__text">Для создания приложения я&nbsp;провела качественные и&nbsp;количественные исследования, чтобы спроектировать сервис, отвечающий запросам целевой аудитории. Составила пользовательский сценарий, job stories и&nbsp;вайрфреймы, на&nbsp;основе которых провела юзабилити-тестирование. Используя результаты проведённого тестирования, я&nbsp;начала проетировать визуальный дизайн своего продукта.</p>
+								</div>
+							</div>
+							<div class="task__body">
+								<picture><source srcset="img/mopile-app-lazy/points/mobile-app.webp" type="image/webp"><img src="img/mopile-app-lazy/points/mobile-app.png" alt="Mobile application" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="study">
+				<div class="study__container">
+					<div class="study__content">
+						<div class="study__box-container">
+							<nav class="study__navigation navigation navigation_first">
+								<div class="navigation__item">
+									<button class="navigation__btn navigation__btn_first navigation__btn_orange">01 Исследование</button>
+								</div>
+								<div class="navigation__item">
+									<button class="navigation__btn navigation__btn_second">02 Проектирование</button>
+								</div>
+								<div class="navigation__item">
+									<button class="navigation__btn navigation__btn_third">03 Визуализация</button>
+								</div>
+							</nav>
+							<div class="study__items">
+								<div class="study__item item-study">
+									<h2 class="item-study__title title-h2">Цель исследования</h2>
+									<p class="item-study__text">В&nbsp;процессе проведения исследований я&nbsp;хочу понять:</p>
+									<ul class="item-study__list list-item-study">
+										<li class="list-item-study__item">С&nbsp;какими проблемами сталкиваются пользователи при поиске досуга</li>
+										<li class="list-item-study__item">Насколько важно мнение других людей о&nbsp;мероприятии или месте</li>
+										<li class="list-item-study__item">Какие критерии влияют на&nbsp;выбор мероприятия</li>
+										<li class="list-item-study__item">Какая информация о&nbsp;мероприятии необходима для выбора</li>
+									</ul>
+								</div>
+								<div class="study__item item-study">
+									<h2 class="item-study__title title-h2">Методы исследования</h2>
+									<ul class="item-study__list list-item-study">
+										<li class="list-item-study__item">Я&nbsp;использовала следующие методы исследования:</li>
+										<li class="list-item-study__item">Анализ целевой аудитории</li>
+										<li class="list-item-study__item">Гипотезы</li>
+										<li class="list-item-study__item">Пользовательский опрос</li>
+										<li class="list-item-study__item">Глубинное интервью</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="analysis">
+				<div class="analysis__container">
+					<div class="analysis__content">
+						<div class="analysis__box-container">
+							<div class="analysis__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Анализ конкурентов</h2>
+								<p class="header-box__text">Я&nbsp;проанализировалаосновных прямых конкурентов в&nbsp;сфере поиска событий и&nbsp;развлечений. Их&nbsp;решения помогли мне получить представление о&nbsp;сильных и&nbsp;слабых сторонах. А&nbsp;также помогли не&nbsp;допускать похожих ошибок при проектировании интерфейса продукта. Решения, которые решают проблемы пользователя, я&nbsp;позаимствовала.</p>
+							</div>
+						</div>
+						<div class="analysis__image">
+							<picture><source srcset="img/mopile-app-lazy/analysis/competitive.webp" type="image/webp"><img src="img/mopile-app-lazy/analysis/competitive.png" alt="analisys" /></picture>
+						</div>
+						<div class="analysis__conclusions conclusions-analysis">
+							<div class="conclusions-analysis__box-container">
+								<div class="conclusions-analysis__title">Выводы по конкурентному анализу</div>
+								<div class="conclusions-analysis__lists">
+									<ul class="conclusions-analysis__list">
+										<li class="conclusions-analysis__item">Для краткого ознакомления с&nbsp;продуктом необходимо сделать <span class="color-orange">онбординг</span>, но&nbsp;информация в&nbsp;нём должна быть по&nbsp;существу и&nbsp;не&nbsp;вводить в&nbsp;заблуждение</li>
+										<li class="conclusions-analysis__item">В&nbsp;приложение <span class="color-orange">можно войти как гость</span>, без обязательной регистрации в&nbsp;начале. Нужно дать пользователю возможность самому заинтересоваться и&nbsp;уже потом создавать свой аккаунт</li>
+										<li class="conclusions-analysis__item"><span class="color-orange">Местоположение</span> определять <span class="color-orange">геопозицией</span> с&nbsp;возможностью изменить по&nbsp;желанию</li>
+										<li class="conclusions-analysis__item"><span class="color-orange">Главный экран не&nbsp;должен быть перегружен</span> информацией, рассеивая внимание пользователей</li>
+										<li class="conclusions-analysis__item">При скролле <span class="color-orange">верхнее меню</span> с&nbsp;фильтрами будет <span class="color-orange">фиксированным</span> с&nbsp;быстрым доступом к&nbsp;нему, даже если пользователь находится в&nbsp;самом низу страницы</li>
+									</ul>
+									<ul class="conclusions-analysis__list">
+										<li class="conclusions-analysis__item">В&nbsp;приложение будут <span class="color-orange">события как оффлайн типа, так и&nbsp;онлайн</span></li>
+										<li class="conclusions-analysis__item">В&nbsp;приложении должна быть возможность <span class="color-orange">поиска по&nbsp;карте</span></li>
+										<li class="conclusions-analysis__item"><span class="color-orange">Фильтры</span> должны быть <span class="color-orange">подробными</span> с&nbsp;приоритетными категориями для поиска</li>
+										<li class="conclusions-analysis__item">У&nbsp;пользователей должна быть возможность <span class="color-orange">поделиться с&nbsp;друзьями</span> не&nbsp;только в&nbsp;самой карточке события, но&nbsp;и&nbsp;в&nbsp;списке результатов</li>
+										<li class="conclusions-analysis__item">События можно отфильтровать не&nbsp;только по&nbsp;цене, но&nbsp;и&nbsp;<span class="color-orange">можно искать только бесплатные</span></li>
+										<li class="conclusions-analysis__item">У&nbsp;пользователей есть возможность <span class="color-orange">напрямую связаться</span> с&nbsp;организатором или с&nbsp;любым другим пользователем приложения</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="audience">
+				<div class="audience__container">
+					<div class="audience__content">
+						<div class="audience__box-container">
+							<div class="audience__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">целевая аудитория</h2>
+								<p class="header-box__text">В&nbsp;самом начале проектирования важно понимать для кого создаётся этот продукт. Ниже представлены группы целевой аудитории</p>
+							</div>
+						</div>
+						<div class="audience__items">
+							<div class="audience__item">
+								<div class="item-audience">
+									<p class="item-audience__text">Люди, которые устали от однообразных вечеров</p>
+								</div>
+							</div>
+							<div class="audience__item">
+								<div class="item-audience">
+									<p class="item-audience__text">Люди с плотным рабочим графиком, у которых нет времени на долгий поиск вариантов досуга</p>
+								</div>
+							</div>
+							<div class="audience__item">
+								<div class="item-audience">
+									<p class="item-audience__text">Люди, которые впервые посещают город или туристы</p>
+								</div>
+							</div>
+							<div class="audience__item">
+								<div class="item-audience">
+									<p class="item-audience__text">Люди, которые хотят найти компанию для совместного посещения мероприятий</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="hypotheses">
+				<div class="hypotheses__container">
+					<div class="hypotheses__content">
+						<div class="hypotheses__box-container">
+							<div class="hypotheses__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Гипотезы</h2>
+								<p class="header-box__text">На&nbsp;начальном этапе я&nbsp;составила несколько гипотез, которые предположительно помогут улучшить создаваемый продукт. Ниже я&nbsp;сформулировала их&nbsp;по&nbsp;простому и&nbsp;точному шаблону</p>
+							</div>
+						</div>
+						<div class="hypotheses__items">
+							<div class="hypotheses__item">
+								<div class="item-hypotheses">
+									<p class="item-hypotheses__text"><span class="color-orange">Я предполагаю?</span> что опцию «Создать событие» лучше расположить главном экране в поле видимости пользователя для быстрого доступа. <span class="color-orange">Для того, чтобы это проверить,</span> проведу опрос и глубинное интервью с респондентами, чтобы узнать будут ли они эту фичу использовать и как часто. <span class="color-orange">Я окажусь права, если</span> 50%+ респондентов посчитают удобным и нужным расположить данную опцию на главном экране.</p>
+								</div>
+							</div>
+							<div class="hypotheses__item">
+								<div class="item-hypotheses">
+									<p class="item-hypotheses__text"><span class="color-orange">Я предполагаю,</span> что если добавить в описание профиля пользователей информацию о его интересах и, соответсвенно, возможность просмотра этих интересов, позволит другим пользователям быстрее находить единомышленников, более доверительно относится к источникам отзывов и в целом повысит социальную составляющую приложения. <span class="color-orange">Для того, чтобы это проверить</span> я проведу глубинное интервью и опрос с представителями ЦА продукта. <span class="color-orange">Я окажусь права, если</span> 50%+ респондентов посчитает, что данная информация будет им полезна.</p>
+								</div>
+							</div>
+							<div class="hypotheses__item">
+								<div class="item-hypotheses">
+									<p class="item-hypotheses__text"><span class="color-orange">Я предполагаю,</span> что если при создании события на этом экране добавить онбординг, это поможет донести до пользователя основные ценности использования данной фичи, а следовательно повысит вовлеченность пользователей в продукт и увеличит конкурентоспособность компании. <span class="color-orange">Для того, чтобы это проверить,</span> я проведу A/B тестирование на прототипе, где будут макеты с онбордингом и без него. <span class="color-orange">Я окажусь права, если</span> в группе А (макет с онобордингом) будет более 50% респондентов, посчитавших, что онбординг помогает им понять для чего и зачем им эта функция, и они бы попробовали воспользоваться ею.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="interview">
+				<div class="interview__container">
+					<div class="interview__content">
+						<div class="interview__box-container">
+							<div class="interview__header header-box header-box_wide">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">опрос пользователей</h2>
+								<div class="header-box__text text-header-box">
+									<p class="text-header-box__item">Я&nbsp;провела удалённое тестирование при помощи опроса, составленного в&nbsp;Google Forms. В&nbsp;опросе приняли участие 10&nbsp;респондентов в&nbsp;возрасте от&nbsp;22&nbsp;до&nbsp;36&nbsp;лет. Опрос состоял из&nbsp;13&nbsp;вопросов с&nbsp;выбором/вводом вариантов ответов</p>
+									<p class="text-header-box__item">Цель опроса: понять состав аудитории продукта, выявить проблемы, выбрать лучшие варианты при проектировании интерфейса. Результаты опроса представлены ниже</p>
+								</div>
+							</div>
+						</div>
+						<div class="interview__row">
+							<div class="interview__wrapper">
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Основными источниками информации являются социальные сети и поиск в Интернете</p>
+										<p>Важно: создать приложение с возможностью общаться друг с другом как в соцсетях</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Для 52% респондентов цель посещения мероприятия -развлечение. Для 30% -культурное и спортивное развитие</p>
+										<p>Важно: в подборках должны быть подобраны события на развлечение, культурное и спортивное развитие</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Для большинства респондентов основным критерием выбора являются их интересы, отзывы и цена</p>
+										<p>Важно: в карточках события предоставлять в первую очередь информацию с отзывами и ценой, и добавить теги с категорией события (например, спорт)</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Метод поиска события или места у 54% респондентов проходит с помощью фильтрации и сортировки. А 31% респондентов ищут мероприятие по карте</p>
+										<p>Важно: включить поиск как списком, так и по карте</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Настроение влияет на выбор мероприятия, но не является первоочередным</p>
+										<p>Важно: добавить возможность фильтрации событий по настроению</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Половина респондентов из числа опрошенных создавали бы своё мероприятие</p>
+										<p>Важно: функцию по создания события расположить или на главном экране или в разделе профиля</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>60% респондентов отметили, что им было бы удобнее находить компанию на мероприятие, если б была возможность видеть их интересы в профиле</p>
+										<p>Важно: добавить на экран профиля интересы пользователя с доступом просмотра другими (регулируется в настройках)</p>
+									</div>
+								</div>
+								<div class="interview__item item-interview">
+									<div class="item-interview__text">
+										<p>Основные проблемы с которыми сталкиваются респонденты - нет рекомендаций и тематических подборок</p>
+										<p>Важно: на главном экране показывать подборки на основе интересов пользователя, а также рекомендации</p>
+									</div>
+								</div>
+							</div>
+							<div class="interview__box-navigation">
+								<div class="interview__control"></div>
+								<button class="interview-swiper-button-prev"></button>
+								<button class="interview-swiper-button-next"></button>
+							</div>
+						</div>
+						<div class="interview__conclusions conclusions-interview">
+							<div class="conclusions-interview__title">Выводы по гипотезам</div>
+							<div class="conclusions-interview__items">
+								<p class="conclusions-interview__item"><span class="color-orange">Гипотеза 1&nbsp;подтвердилась частично.</span> Только половина респондентов воспользовалась&nbsp;бы функцией &laquo;Создать событие&raquo;. Необходимо более глубже исследовать это предположение. Для этого проведу интервью, чтобы узнать проблемы и&nbsp;ответить на&nbsp;вопрос &laquo;почему не&nbsp;стали&nbsp;бы пользоваться этой функцией&raquo;.</p>
+								<p class="conclusions-interview__item"><span class="color-orange">Гипотеза 2&nbsp;подтвердилась.</span> Опрос показал, что&nbsp;60% пользователей хотели&nbsp;бы знать какие интересы у&nbsp;людей, которые собираются идти на&nbsp;то&nbsp;же самое мероприятие. Так им&nbsp;проще и&nbsp;удобнее искать себе компанию.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="deep-interview">
+				<div class="deep-interview__container">
+					<div class="deep-interview__content">
+						<div class="deep-interview__box-container">
+							<div class="deep-interview__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">глубинное интервью</h2>
+								<div class="header-box__text">Чтобы получить полное представление об&nbsp;опыте поиска досуга, о&nbsp;проблемах с&nbsp;которыми сталкиваются респонденты, об&nbsp;их&nbsp;ожиданиях, я&nbsp;взяла интервью у&nbsp;4&nbsp;человек, входящих в&nbsp;целевую аудиторию продукта. Я&nbsp;подготовила 10&nbsp;открытых вопросов, чтобы предложить участникам поделиться своим опытом и&nbsp;мнением. Полученные мною инсайты из&nbsp;глубинного интервью я&nbsp;отметила ниже</div>
+							</div>
+						</div>
+						<div class="deep-interview__row">
+							<div class="deep-interview__wrapper">
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Возможность добавить в избранное является самой удобной функцией в интерфейсе</p>
+										<p>Важно: расположить раздел с избранным на панели навигации для быстрого доступа к нему</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Тратят много времени в поиске бесплатных событий</p>
+										<p>Важно: добавть в фильтры функцию с поиском только бесплатных событий</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Часто обращают внимание на отзывы к каким-либо мероприятиям или местам</p>
+										<p>Важно: в карточках событий и мест сделать раздел с отзывами и возможностью добавить собственный</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Нет уверенности в пользе подобных приложений</p>
+										<p>Важно: сделать онбординг при первом посещении, возможность войти как гость для ознакомления, много персональных подборок. Всё это для повышения лояльности и вовлечённости пользователей</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Основной источник информации - друзья и социальные сети</p>
+										<p>Важно: создать комьюнити вокруг приложения с возможностью делиться находками с друзьями, писать сообщения друг другу</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Чаще предпочитают остаться дома и никуда не ходить</p>
+										<p>Важно: возможность поиска не только офлайн-событий, но и событий проходящих онлайн</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Предпочитают ходить в любимые места, а если какое-либо мероприятие понравилось, то не против посетить подобное снова</p>
+										<p>Важно: возможность подписаться на любимые места или понравившихся организаторов</p>
+									</div>
+								</div>
+								<div class="deep-interview__item item-deep-interview">
+									<div class="item-deep-interview__text">
+										<p>Основные проблемы при поиске: долгая дорога; нет ничего подходящего и интересного; мало событий онлайн и бесплатных; не с кем пойти; всё дорого</p>
+										<p></p>
+									</div>
+								</div>
+							</div>
+							<div class="deep-interview__box-navigation">
+								<div class="deep-interview__control"></div>
+								<button class="deep-interview-swiper-button-prev"></button>
+								<button class="deep-interview-swiper-button-next"></button>
+							</div>
+						</div>
+						<div class="deep-interview__conclusions conclusions-deep-interview">
+							<div class="conclusions-deep-interview__title">Выводы по гипотезам</div>
+							<div class="conclusions-deep-interview__items">
+								<p class="conclusions-deep-interview__item"><span class="color-orange">Гипотеза 1&nbsp;не подтвердилась.</span> Только 1&nbsp;из&nbsp;4&nbsp;участников воспользовался&nbsp;бы функцией &laquo;Создать событие&raquo;. Эта функция незнакома и&nbsp;новая для них. Внедрять нужно постепенно. На&nbsp;главном экране пока нет необходимости располагать эту функцию. На&nbsp;этапе MVP сделаю её&nbsp;внутри профиля пользователя. Будет также просто её&nbsp;найти, но&nbsp;в&nbsp;то&nbsp;же время не&nbsp;будет лишний раз нагромождать главный экран.</p>
+								<p class="conclusions-deep-interview__item"><span class="color-orange">Гипотеза 2&nbsp;подтвердилась.</span> Все респонденты отметили, что им&nbsp;хочется знать о&nbsp;том, чем интересуются другие пользователи, в&nbsp;особенности&nbsp;те, что идут вместе с&nbsp;ними на&nbsp;мероприятие.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="person">
+				<div class="person__container">
+					<div class="person__content">
+						<div class="person__box-container">
+							<div class="person__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Метод персон</h2>
+								<div class="header-box__text">Персона помогает находить точки контакта с&nbsp;целевой аудиторией. Я&nbsp;собрала много информации о&nbsp;пользователей, их&nbsp;проблемы и&nbsp;желания. Теперь нужно объединить всё в&nbsp;один образ пользователя для представления ключевых сегментов аудитории. Это помогает мне сосредоточиться на&nbsp;решении самых важных проблем&nbsp;&mdash; на&nbsp;удовлетворении основных потребностей наиболее важных групп пользователей. Он&nbsp;и&nbsp;вымышленный, и&nbsp;реалистичный.</div>
+							</div>
+						</div>
+						<div class="person__swiper swiper">
+							<div class="person__wrapper swiper-wrapper">
+								<div class="person__slide swiper-slide">
+									<div class="person__image">
+										<picture><source srcset="img/mopile-app-lazy/person/slider-image/slide-1.webp" type="image/webp"><img src="img/mopile-app-lazy/person/slider-image/slide-1.png" alt="elena" /></picture>
+									</div>
+								</div>
+								<div class="person__slide swiper-slide">
+									<div class="person__image">
+										<picture><source srcset="img/mopile-app-lazy/person/slider-image/slide-2.webp" type="image/webp"><img src="img/mopile-app-lazy/person/slider-image/slide-2.png" alt="ksenya" /></picture>
+									</div>
+								</div>
+								<div class="person__slide swiper-slide">
+									<div class="person__image">
+										<picture><source srcset="img/mopile-app-lazy/person/slider-image/slide-3.webp" type="image/webp"><img src="img/mopile-app-lazy/person/slider-image/slide-3.png" alt="pavel" /></picture>
+									</div>
+								</div>
+								<div class="person__slide swiper-slide">
+									<div class="person__image">
+										<picture><source srcset="img/mopile-app-lazy/person/slider-image/slide-4.webp" type="image/webp"><img src="img/mopile-app-lazy/person/slider-image/slide-4.png" alt="anna" /></picture>
+									</div>
+								</div>
+							</div>
+							<div class="person__box-navigation">
+								<div class="person__control"></div>
+								<button class="person-button-prev"></button>
+								<button class="person-button-next"></button>
+							</div>
+						</div>
+						<nav class="person__navigation navigation navigation_second">
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_first">01 Исследование</button>
+							</div>
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_second navigation__btn_orange">02 Проектирование</button>
+							</div>
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_third">03 Визуализация</button>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<section class="customer">
+				<div class="customer__container">
+					<div class="customer__content">
+						<div class="customer__box-container">
+							<div class="customer__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Метод персон</h2>
+								<div class="header-box__text">Персона помогает находить точки контакта с&nbsp;целевой аудиторией. Я&nbsp;собрала много информации о&nbsp;пользователей, их&nbsp;проблемы и&nbsp;желания. Теперь нужно объединить всё в&nbsp;один образ пользователя для представления ключевых сегментов аудитории. Это помогает мне сосредоточиться на&nbsp;решении самых важных проблем&nbsp;&mdash; на&nbsp;удовлетворении основных потребностей наиболее важных групп пользователей. Он&nbsp;и&nbsp;вымышленный, и&nbsp;реалистичный.</div>
+							</div>
+						</div>
+						<div class="customer__swiper swiper">
+							<div class="customer__wrapper swiper-wrapper">
+								<div class="customer__slide swiper-slide">
+									<div class="customer__image">
+										<picture><source srcset="img/mopile-app-lazy/customer/slide-1.webp" type="image/webp"><img src="img/mopile-app-lazy/customer/slide-1.png" alt="elena" /></picture>
+									</div>
+								</div>
+								<div class="customer__slide swiper-slide">
+									<div class="customer__image">
+										<picture><source srcset="img/mopile-app-lazy/customer/slide-2.webp" type="image/webp"><img src="img/mopile-app-lazy/customer/slide-2.png" alt="ksenya" /></picture>
+									</div>
+								</div>
+								<div class="customer__slide swiper-slide">
+									<div class="customer__image">
+										<picture><source srcset="img/mopile-app-lazy/customer/slide-3.webp" type="image/webp"><img src="img/mopile-app-lazy/customer/slide-3.png" alt="pavel" /></picture>
+									</div>
+								</div>
+								<div class="customer__slide swiper-slide">
+									<div class="customer__image">
+										<picture><source srcset="img/mopile-app-lazy/customer/slide-4.webp" type="image/webp"><img src="img/mopile-app-lazy/customer/slide-4.png" alt="anna" /></picture>
+									</div>
+								</div>
+							</div>
+							<div class="customer__box-navigation">
+								<div class="customer__control"></div>
+								<button class="customer-button-prev"></button>
+								<button class="customer-button-next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="jobs">
+				<div class="jobs__container">
+					<div class="jobs__content">
+						<div class="jobs__box-container">
+							<div class="jobs__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Jobs to be done (JTBD)</h2>
+								<div class="header-box__text">Поскольку аудитория продукта максимально широкая я&nbsp;выбрала JTBD подход к&nbsp;проетированию приложения. На&nbsp;основании предыдущих исследований были сформулированы Job Stories (полный список)</div>
+							</div>
+						</div>
+						<div class="jobs__image">
+							<picture><source srcset="img/mopile-app-lazy/jobs/image-content.webp" type="image/webp"><img src="img/mopile-app-lazy/jobs/image-content.png" alt="content" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="map-app">
+				<div class="map-app__container">
+					<div class="map-app__content">
+						<div class="map-app__box-container">
+							<div class="map-app__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Карта приложения</h2>
+								<div class="header-box__text">Я&nbsp;разработала простую карту приложения, которая функциональна и&nbsp;удобна для навигации</div>
+							</div>
+						</div>
+						<div class="map-app__image">
+							<picture><source srcset="img/mopile-app-lazy/map-app/content-image.webp" type="image/webp"><img src="img/mopile-app-lazy/map-app/content-image.png" alt="content" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="user-flow">
+				<div class="user-flow__container">
+					<div class="user-flow__content">
+						<div class="user-flow__box-container">
+							<div class="user-flow__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">user flow</h2>
+								<div class="header-box__text">Я&nbsp;разработала основные, дополнительные и&nbsp;экстренные сценарии, которые соответствуют пользовательским задачам. Этот процесс помогает мне встать на&nbsp;место отдельного пользователя и&nbsp;продумать различные пути, с&nbsp;которыми этот пользователь может столкнуться. Ниже показан основной пользовательский сценарий &laquo;Поиск события&raquo; для пользователя, который впервые открыл приложение. Остальные сценарии можно посмотреть здесь</div>
+							</div>
+						</div>
+						<div class="user-flow__image">
+							<picture><source srcset="img/mopile-app-lazy/user-flow/image-content.webp" type="image/webp"><img src="img/mopile-app-lazy/user-flow/image-content.png" alt="content" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="warframes-app">
+				<div class="warframes-app__container">
+					<div class="warframes-app__content">
+						<div class="warframes-app__box-container">
+							<div class="warframes-app__header header-box header-box_wide">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Вайрфреймы</h2>
+								<div class="header-box__text text-header-box">
+									<p class="text-header-box__item">Проектирование вайрфреймов и&nbsp;создание на&nbsp;их&nbsp;основе кликабельного прототипа позволило мне провести юзабилити-тестирование и&nbsp;выявить приоритетные изменения, которые необходимо внедрить. А&nbsp;также провести A/B тестирование для проверки гипотезы&nbsp;3, предварительно подготовив легенду для прохождения сценария. В&nbsp;тестировании участвовали 8&nbsp;человек от&nbsp;22х до&nbsp;36ти лет.</p>
+									<div class="text-header-box__item">
+										<p>Респонденты были разделены на&nbsp;2&nbsp;группы по&nbsp;4&nbsp;человека. Первой группе был показан макет с&nbsp;онбордингом на&nbsp;экране создания события. Второй группе&nbsp;&mdash; без онбординга. Для прохождения тестирования я&nbsp;предложила пройти два сценария:</p>
+										<ul class="text-header-box__list list-text-header-box">
+											<li class="list-text-header-box__item">Найти событие по&nbsp;велопробегу, воспользовавшись поиском и&nbsp;фильтрами</li>
+											<li class="list-text-header-box__item">Создать событие</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="warframes-app__swiper swiper">
+							<div class="warframes-app__wrapper swiper-wrapper">
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-1.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-1.jpg" alt="image-1" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-2.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-2.jpg" alt="image-2" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-3.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-3.jpg" alt="image-3" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-4.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-4.jpg" alt="image-4" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-5.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-5.jpg" alt="image-5" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-6.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-6.jpg" alt="image-6" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-7.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-7.jpg" alt="image-7" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-8.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-8.jpg" alt="image-8" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-9.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-9.jpg" alt="image-9" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-10.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-10.jpg" alt="image-10" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-11.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-11.jpg" alt="image-11" /></picture>
+									</div>
+								</div>
+								<div class="warframes-app__slide swiper-slide">
+									<div class="warframes-app__image">
+										<picture><source srcset="img/mopile-app-lazy/warframes-app/slider/slide-12.webp" type="image/webp"><img src="img/mopile-app-lazy/warframes-app/slider/slide-12.jpg" alt="image-12" /></picture>
+									</div>
+								</div>
+							</div>
+							<div class="warframes-app__box-navigation">
+								<div class="warframes-app__control"></div>
+								<button class="warframes-app-button-prev"></button>
+								<button class="warframes-app-button-next"></button>
+							</div>
+						</div>
+						<div class="warframes-app__conclusions conclusions-warframes-app">
+							<div class="conclusions-warframes-app__title">Выводы после проведения тестирования:</div>
+							<div class="conclusions-warframes-app__lists">
+								<ul class="conclusions-warframes-app__list">
+									<li class="conclusions-warframes-app__item">Т.к. гипотеза 1&nbsp;не подтвердилась после проведения интервью, на&nbsp;этапе создания вайрфреймов функцию &laquo;Создать событие&raquo; я&nbsp;расположила в&nbsp;разделе профиля пользователя. Респонденты отметили, что проблемы найти эту функцию не&nbsp;было</li>
+									<li class="conclusions-warframes-app__item"><span class="color-orange">Подтвердилась гипотеза</span> 2&nbsp;о пользе в&nbsp;блоке с&nbsp;информацией об&nbsp;интересах пользователей (данная информация показывается на&nbsp;экране с&nbsp;профилем любого другого пользователя). Респонденты отметили, что им&nbsp;интересно узнать кто чем интересуется</li>
+									<li class="conclusions-warframes-app__item">Во&nbsp;время проведения A/B тестирования первая группа из&nbsp;4-х человек посчитали, что онбординг помогает им&nbsp;понять для чего и&nbsp;зачем им&nbsp;эта функция, и&nbsp;они&nbsp;бы попробовали воспользоваться&nbsp;ею. Вторая группа, тестировавшая макет без онбордига, посчитала, что функция в&nbsp;целом понятная, но&nbsp;смысла и&nbsp;интереса в&nbsp;ней не&nbsp;нашли. <span class="color-orange">Гипотеза 3&nbsp;подтвердилась.</span></li>
+									<li class="conclusions-warframes-app__item">Навигацонная панель с&nbsp;разделами (navigation bar) пользователям понятна и&nbsp;без подписей. Иконки легко узнаваемы и&nbsp;не&nbsp;вводят в&nbsp;заблуждение</li>
+								</ul>
+								<ul class="conclusions-warframes-app__list">
+									<li class="conclusions-warframes-app__item">1&nbsp;из&nbsp;5&nbsp;респогдентов отметил, что не&nbsp;хватает информации об&nbsp;актерах к&nbsp;описанию к&nbsp;фильмам (например, как в&nbsp;приложении Афиша)</li>
+									<li class="conclusions-warframes-app__item">Ссылка на&nbsp;то, чтобы &laquo;Оставить отзыв&raquo; не&nbsp;сильно заметен при пользовании, следовательно стоит сделать кнопкой при отрисовке макета с&nbsp;визуальным дизайном</li>
+									<li class="conclusions-warframes-app__item">В&nbsp;ходе тестирования 2/5 респондентов подсказали мне, что при создании события перед отправлением на&nbsp;модерацию, желательно добавить предпросмотр созданного события, чтобы проверить все параметры и&nbsp;найти сделанные ошибки или недочёты</li>
+									<li class="conclusions-warframes-app__item">Респондентам понравилось наличие фотогалереи в&nbsp;карточке события. Это больше заинтересовывает к&nbsp;событию или месту</li>
+									<li class="conclusions-warframes-app__item">Фильтр удобен и&nbsp;понятен, все критерии поиска необходимы и&nbsp;полезны</li>
+								</ul>
+							</div>
+						</div>
+						<nav class="warframes-app__navigation navigation navigation_third">
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_first">01 Исследование</button>
+							</div>
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_second">02 Проектирование</button>
+							</div>
+							<div class="navigation__item">
+								<button class="navigation__btn navigation__btn_third navigation__btn_orange">03 Визуализация</button>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<section class="ui-kit-app">
+				<div class="ui-kit-app__container">
+					<div class="ui-kit-app__content">
+						<div class="ui-kit-app__box-container">
+							<div class="ui-kit-app__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">UI-kit</h2>
+								<div class="header-box__text">Перед созданием визуального дизайна я&nbsp;создала элементы набора пользовательского интерфейса</div>
+							</div>
+						</div>
+						<div class="ui-kit-app__image">
+							<picture><source srcset="img/mopile-app-lazy/ui-kit/content-image.webp" type="image/webp"><img src="img/mopile-app-lazy/ui-kit/content-image.png" alt="content" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="visual-design-app">
+				<div class="visual-design-app__container">
+					<div class="visual-design-app__content">
+						<div class="visual-design-app__box-container">
+							<div class="visual-design-app__header header-box">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Визуальный дизайн</h2>
+								<div class="header-box__text">На&nbsp;основе результатов исследований, тестирования на&nbsp;вайрфреймах, используя элементы UI-кита я&nbsp;отрисовала визуальный дизайн приложения. Посмотреть готовый кликабельный прототип можно здесь</div>
+							</div>
+						</div>
+						<div class="visual-design-app__swiper swiper">
+							<div class="visual-design-app__wrapper swiper-wrapper">
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-1.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-1.jpg" alt="image-1" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-2.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-2.jpg" alt="image-2" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-3.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-3.jpg" alt="image-3" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-4.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-4.jpg" alt="image-4" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-5.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-5.jpg" alt="image-5" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-6.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-6.jpg" alt="image-6" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-7.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-7.jpg" alt="image-7" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-8.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-8.jpg" alt="image-8" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-9.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-9.jpg" alt="image-9" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-10.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-10.jpg" alt="image-10" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-11.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-11.jpg" alt="image-11" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-12.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-12.jpg" alt="image-12" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-13.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-13.jpg" alt="image-13" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-14.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-14.jpg" alt="image-14" /></picture>
+									</div>
+								</div>
+								<div class="visual-design-app__slide swiper-slide">
+									<div class="visual-design-app__image">
+										<picture><source srcset="img/mopile-app-lazy/visual-design-app/slide-15.webp" type="image/webp"><img src="img/mopile-app-lazy/visual-design-app/slide-15.jpg" alt="image-15" /></picture>
+									</div>
+								</div>
+							</div>
+							<div class="visual-design-app__box-navigation">
+								<div class="visual-design-app__control"></div>
+								<button class="visual-design-app-button-prev"></button>
+								<button class="visual-design-app-button-next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="usability">
+				<div class="usability__container">
+					<div class="usability__content">
+						<div class="usability__box-container">
+							<div class="usability__header header-box header-box_wide">
+								<h2 data-watch data-watch-once class="header-box__title title-h2 _watcher-view">Usability тестирование</h2>
+								<div class="header-box__text text-header-box">
+									<p class="text-header-box__item">Я&nbsp;протестировала прототип с&nbsp;отрисованным дизайном, чтобы проверить возникают&nbsp;ли сложности с&nbsp;интерфейсом, как воспринимаются изображения, есть&nbsp;ли то, что отвлекает внимание. В&nbsp;тестирование участвовали 4&nbsp;респондента. Для респондентов мною были заготовлены 2&nbsp;легенды.</p>
+									<div class="text-header-box__item">
+										<p>Легенды для прохождения тестирования:</p>
+										<ul class="text-header-box__list list-text-header-box">
+											<li class="list-text-header-box__item">Воспользоваться поиском и&nbsp;фильтром по&nbsp;критериям &laquo;Здоровье&raquo; на&nbsp;11&nbsp;июня 2022г., чтобы найти событие по&nbsp;велопробегу в&nbsp;Оренбурге</li>
+											<li class="list-text-header-box__item">Создать событие</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="usability__row">
+							<div class="usability__wrapper">
+								<div class="usability__item item-usability">
+									<p class="item-usability__text">Все респонденты справились с прохождением тестирования</p>
+								</div>
+								<div class="usability__item item-usability">
+									<p class="item-usability__text">Ни у кого не составило труда найти функцию «Создать событие» в профиле</p>
+								</div>
+								<div class="usability__item item-usability">
+									<p class="item-usability__text">Онбординг действительно помогает заинтересовать, и в то же время не принуждает никого</p>
+								</div>
+								<div class="usability__item item-usability">
+									<p class="item-usability__text">Иконки на панели навигации легко считываются и не вводят в заблуждение</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="results">
+				<div class="results__container">
+					<div class="results__content">
+						<div class="main-horizontal-decor-line main-horizontal-decor-line_high"></div>
+						<h2 data-watch data-watch-once class="results__title title-h2 _watcher-view">итоги</h2>
+						<div class="results__text">
+							<p>Создав окончательный прототип, я&nbsp;считаю, что решила задачу, поставленную в&nbsp;самом начале. Я&nbsp;спроектировала приложение для стартапа LAZY. Этот сервис помогает найти занятие на&nbsp;вечер и&nbsp;учитывает все возможные факторы, которые могут на&nbsp;это повлиять: настроение пользователя, его предпочтения, количество свободного времени, финансовые возможности. Таким образом, приложение максимально персонализированное. В&nbsp;нём можно общаться, отслеживать новинки от&nbsp;любимых организаторов и&nbsp;не&nbsp;тратить много времени на&nbsp;поиск досуга.</p>
+							<p>Во&nbsp;время работы над этим проектом я&nbsp;научилась по-настоящему доверять процессу исследований и&nbsp;поняла насколько это важно. Количественные и&nbsp;качественные исследования помогли мне спроетировать интерфейс, включить в&nbsp;функционал именно&nbsp;то, что действительно необходимо пользователям для решения их&nbsp;проблемы. А&nbsp;проведение тестирований (юзабилити-тестирование, A/B тестирование) улучшало продукт с&nbsp;каждой итерацией. На&nbsp;выполнение проекта ушло 3&nbsp;недели. По&nbsp;1&nbsp;неделе на&nbsp;каждый этап. При наличии большего времени я&nbsp;бы добавила ещё такие функции как генератор событий и&nbsp;проработала сценарий с&nbsp;созданием общего чата для посещения события.</p>
+						</div>
+						<div class="results__image">
+							<picture><source srcset="img/mopile-app-lazy/results/results-image.webp" type="image/webp"><img src="img/mopile-app-lazy/results/results-image.jpg" alt="results image" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="other-jobs-app">
+				<div class="other-jobs-app__container">
+					<div class="other-jobs-app__content">
+						<h4 class="other-jobs-app__title">Другие работы</h4>
+						<div class="other-jobs-app__slider swiper">
+							<div class="other-jobs-app__wrapper swiper-wrapper">
+								<div class="other-jobs-app__slide swiper-slide">
+									<div class="other-jobs-app__image-box">
+										<div class="other-jobs-app__image">
+											<picture><source srcset="img/mopile-app-lazy/other-jobs-app/slide-1.webp" type="image/webp"><img src="img/mopile-app-lazy/other-jobs-app/slide-1.png" alt="image" /></picture>
+										</div>
+									</div>
+									<ul class="other-jobs-app__list">
+										<li class="other-jobs-app__item">UX/ui</li>
+										<li class="other-jobs-app__item">ios app</li>
+									</ul>
+								</div>
+								<div class="other-jobs-app__slide swiper-slide">
+									<div class="other-jobs-app__image-box">
+										<div class="other-jobs-app__image other-jobs-app__image_wide">
+											<picture><source srcset="img/mopile-app-lazy/other-jobs-app/slide-2.webp" type="image/webp"><img src="img/mopile-app-lazy/other-jobs-app/slide-2.png" alt="image" /></picture>
+										</div>
+									</div>
+									<ul class="other-jobs-app__list">
+										<li class="other-jobs-app__item">UX/ui</li>
+										<li class="other-jobs-app__item">desktop/mobile</li>
+									</ul>
+								</div>
+								<div class="other-jobs-app__slide swiper-slide">
+									<div class="other-jobs-app__image-box">
+										<div class="other-jobs-app__image">
+											<picture><source srcset="img/mopile-app-lazy/other-jobs-app/slide-3.webp" type="image/webp"><img src="img/mopile-app-lazy/other-jobs-app/slide-3.png" alt="image" /></picture>
+										</div>
+									</div>
+									<ul class="other-jobs-app__list">
+										<li class="other-jobs-app__item">UX/ui</li>
+										<li class="other-jobs-app__item">android app</li>
+									</ul>
+								</div>
+								<div class="other-jobs-app__slide swiper-slide">
+									<div class="other-jobs-app__image-box">
+										<div class="other-jobs-app__image other-jobs-app__image_wide">
+											<picture><source srcset="img/mopile-app-lazy/other-jobs-app/slide-4.webp" type="image/webp"><img src="img/mopile-app-lazy/other-jobs-app/slide-4.png" alt="image" /></picture>
+										</div>
+									</div>
+									<ul class="other-jobs-app__list">
+										<li class="other-jobs-app__item">UX/ui</li>
+										<li class="other-jobs-app__item">desktop/mobile</li>
+									</ul>
+								</div>
+							</div>
+							<div class="other-jobs-app__box-navigation">
+								<div class="other-jobs-app__control"></div>
+								<button class="other-jobs-app-button-prev"></button>
+								<button class="other-jobs-app-button-next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__decor"></div>
+					<ul class="footer__list contacts-list">
+						<li class="contacts-list__item">
+							<a href="" class="contacts-list__link">Behance</a>
+						</li>
+						<li class="contacts-list__item">
+							<a href="" class="contacts-list__link">LinkedIn</a>
+						</li>
+						<li class="contacts-list__item">
+							<a href="" class="contacts-list__link">Mail</a>
+						</li>
+						<li class="contacts-list__item">
+							<a href="" class="contacts-list__link">Telegram</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221218183431"></script>
+</body>
+
+</html>
