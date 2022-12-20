@@ -897,6 +897,9 @@ body {
 }
 
 .item-cases__title .title-text-animation {
+  font-family: Anticva;
+  line-height: 120%;
+  text-transform: uppercase;
   display: block;
   opacity: 0;
   -webkit-transform: translateY(50px);
@@ -2905,6 +2908,10 @@ body {
     padding-bottom: 3.125rem;
   }
 
+  .item-cases__title .title-text-animation {
+    font-size: 2.75rem;
+  }
+
   .item-cases__description p {
     font-size: 1.25rem;
   }
@@ -3763,6 +3770,10 @@ body {
     max-width: 17.5rem;
   }
 
+  .item-cases__title .title-text-animation {
+    font-size: 1.625rem;
+  }
+
   .other-jobs__slide {
     padding-top: 2.5rem;
   }
@@ -4048,6 +4059,7 @@ body {
   }
 
   .menu__body {
+    padding: 100px 0px 100px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4061,13 +4073,14 @@ body {
     background-color: #e3dfdc;
     position: fixed;
     z-index: 99;
-    top: -100%;
+    top: -120%;
     left: 0;
     height: 100%;
     width: 100%;
     -webkit-transition: top 0.5s ease;
     -o-transition: top 0.5s ease;
     transition: top 0.5s ease;
+    overflow: auto;
   }
 
   .menu-open .menu__body {
@@ -4075,7 +4088,6 @@ body {
   }
 
   .menu__list {
-    padding: 100px 0px 0px 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -5164,6 +5176,18 @@ body {
 @supports not (padding-bottom: clamp( 0.9375rem , 0.3452166065rem  +  2.5270758123vw , 3.125rem )) {
     .contact-with-me__button {
       padding-bottom: calc(0.9375rem + 2.1875 * (100vw - 23.4375rem) / 86.5625);
+    }
+}
+
+@supports (font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem )) {
+    .item-cases__title .title-text-animation {
+      font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem );
+    }
+}
+
+@supports not (font-size: clamp( 1.875rem , 1.6380866426rem  +  1.0108303249vw , 2.75rem )) {
+    .item-cases__title .title-text-animation {
+      font-size: calc(1.875rem + 0.875 * (100vw - 23.4375rem) / 86.5625);
     }
 }
 
@@ -6362,6 +6386,18 @@ body {
 @supports not (padding-bottom: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
     .contact-with-me__button {
       padding-bottom: calc(0.9375rem + 0 * (100vw - 20rem) / 3.4375);
+    }
+}
+
+@supports (font-size: clamp( 1.625rem , 0.1704545455rem  +  7.2727272727vw , 1.875rem )) {
+    .item-cases__title .title-text-animation {
+      font-size: clamp( 1.625rem , 0.1704545455rem  +  7.2727272727vw , 1.875rem );
+    }
+}
+
+@supports not (font-size: clamp( 1.625rem , 0.1704545455rem  +  7.2727272727vw , 1.875rem )) {
+    .item-cases__title .title-text-animation {
+      font-size: calc(1.625rem + 0.25 * (100vw - 20rem) / 3.4375);
     }
 }
 }
