@@ -4468,6 +4468,12 @@ body {
   }
 }
 
+@media (max-width: 47.99875em) and (orientation: landscape) {
+  .menu__body {
+    padding: 50px 0px 100px 0px;
+  }
+}
+
 @media (max-width: 29.99875em) {
   .results__image {
     height: 275px;
